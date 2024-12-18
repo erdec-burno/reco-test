@@ -21,6 +21,7 @@ export interface IAppInventoryDetail extends Omit<IAppInventory, 'connector'> {
   connector: {
     name: string;
     logo: string;
-    users: IUser[];
   };
+  users: IUser[];
+  lastClassification: string;
 }

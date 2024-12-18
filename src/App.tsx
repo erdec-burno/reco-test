@@ -15,17 +15,14 @@ const headerStyle: React.CSSProperties = {
 
 const contentStyle: React.CSSProperties = {
   minHeight: 120,
-  width: '100%',
-};
-
-const layoutStyle = {
-  maxWidth: '1200px',
+  minWidth: '1200px',
   margin: '0 auto',
+  marginTop: '14px',
 };
 
 function App() {
   return (
-    <Layout style={layoutStyle}>
+    <Layout>
       <Header style={headerStyle}>Header</Header>
       <Content style={contentStyle}>
         <AppInventory />
