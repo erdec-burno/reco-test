@@ -1,0 +1,7 @@
+body {
+    display: unset;
+    width: 100%;
+    min-width: unset;
+    margin: 0;
+    padding: 0;
+}
